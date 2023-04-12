@@ -10,7 +10,7 @@ export class Layout extends Component {
     return (
         <div>
             <NavBar/>
-            <Container>
+            <Container background="https://i.ibb.co/XbvqjFN/background-Pro.png">
               {this.props.children}
             </Container>
         </div>

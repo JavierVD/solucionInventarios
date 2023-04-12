@@ -9,7 +9,7 @@ export default class App extends Component {
 
   render() {
     return (
-        <Layout style={ { background: '/img/backgroundPro.png'} }>
+        <Layout background="https://i.ibb.co/XbvqjFN/background-Pro.png">
         <Routes>
           {AppRoutes.map((route, index) => {
             const { element, ...rest } = route;
