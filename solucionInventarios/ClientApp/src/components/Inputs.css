@@ -1,0 +1,131 @@
+﻿/*Container*/
+.main-div {
+    margin-left: 5%;
+    margin-top: 5%;
+ 
+}
+/* Statics */
+
+.static-header{
+    font-size: x-large ;
+    margin-bottom: 2%;
+}
+
+
+.home-text{
+    font-size:xx-large;
+}
+
+.box-pic {
+    position: relative;
+    left: 0px;
+    width: 20%;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.text-not-found {
+    font-style: italic;
+    top: 0%;
+    position: relative;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+
+.trophy {
+    width: 20%;
+    position: relative;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.search-bar {
+    border: 1px solid rgb(86, 86, 86);
+    width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button{
+    background: #0a6d02;
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+}
+
+.top-container{
+    display: flex;
+    flex-direction:row;
+}
+.search-dropdown {
+    z-index: 10;
+    position: fixed;
+    width: 400px;
+    border: 1px solid rgb(86, 86, 86);
+    margin-left: 1%;
+    margin-top: 2px;
+    background: white;
+}
+
+.items {
+    font: 20px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 5px;
+}
+.items:hover {
+    background: #39852e7f;
+}.item-pic{
+     width: 50px;
+     max-height: 70px;
+     height: 70px;
+ }
+
+ .number-counter{
+     width: 60px;
+ }
+
+ .trash{
+     width: 30px;
+ }
+
+.file-input {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #ddd;
+    color: #555;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .file-input input[type="file"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    /* Cambiar el color del botón al pasar el cursor sobre él */
+    .file-input:hover {
+        background-color: #bbb;
+    }
+
+    .img-table{
+        max-height: 70px;
+        height: 70px;
+    }
+
+    .table-items{
+        max-height: 80vh;
+    }
+    .execute-button{
+        position: absolute;
+        bottom: 5%;
+    }

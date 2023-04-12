@@ -1,0 +1,50 @@
+﻿body {
+}
+
+
+/*Navbar*/
+
+.navbar-position-left {
+    position: absolute;  
+    top: 50%;
+    transform: translateY(-50%);
+    background: #000;
+    height:100vh;
+}
+.navbar-position-bottom {
+
+}
+
+.navbar-buttons {
+    height: 100px;
+    width: 100px;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50% 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 100% 50%;
+
+    padding: 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navbar-pics {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    filter: invert(1);
+}
+    .navbar-pics:hover {
+        zoom:inherit;
+    }
+    .navbar-buttons:hover {
+        background: #0094ff;
+    }
+.navbar-buttons:active{
+    top:10px;
+}
